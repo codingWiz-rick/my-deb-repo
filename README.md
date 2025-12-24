@@ -8,3 +8,6 @@ This repository is currently empty.
 echo "deb [trusted=yes] https://raw.githubusercontent.com/codingWiz-rick/my-deb-repo/main ./" | sudo tee /etc/apt/sources.list.d/my-repo.list
 sudo apt update
 ```
+
+## Repository was cleaned on: 
+2025-12-24 20:49:15 IST
