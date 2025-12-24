@@ -2,15 +2,15 @@ Origin: my-deb-repo
 Label: my-deb-repo
 Suite: stable
 Codename: stable
-Date: Wed, 24 Dec 2025 13:29:39 +0000
+Date: Wed, 24 Dec 2025 13:31:32 +0000
 Architectures: arm64
 Components: main
 Description: Structured Debian Repository for aarch64/arm64 with GitHub Release Support
 MD5Sum:
  65c7b6fa707039fb93cb89100e675443             7995 main/binary-arm64/Packages
- d8f5e5f136594879a733e6c37752f50b             3078 main/binary-arm64/Packages.gz
+ f89b537fc40ca3ae087f543654972133             3078 main/binary-arm64/Packages.gz
  a115c981dcfd5e9f372f934a5569ef82             3072 main/binary-arm64/Packages.bz2
 SHA256:
  41541e71b9b8baa1dfeef0ddf01973b1d49587466f9927a800914126d742462a             7995 main/binary-arm64/Packages
- 9efc940a8da41a09e86e657b95e27476442d516bd95cd564cf4a2cf92b94a727             3078 main/binary-arm64/Packages.gz
+ 88e56fe847e1bc7561783307cd2eb2ff05661932d41ec172e6483fad9daf8cec             3078 main/binary-arm64/Packages.gz
  f32e5533f577238bc7d048c9f25e451047a9a59d2d9bed18079d55494a624246             3072 main/binary-arm64/Packages.bz2
