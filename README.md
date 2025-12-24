@@ -1,6 +1,6 @@
 # Flat Debian Repository with GitHub Release Support
 
-This repository is currently empty.
+Small packages (<70MB) are in the repo root. Large packages are automatically downloaded from GitHub releases.
 
 ## Add Repository
 
@@ -9,5 +9,10 @@ echo "deb [trusted=yes] https://raw.githubusercontent.com/codingWiz-rick/my-deb-
 sudo apt update
 ```
 
-## Repository was cleaned on: 
-2025-12-24 20:50:21 IST
+## Install Any Package
+
+```bash
+sudo apt install <package-name>
+```
+
+Large packages are automatically downloaded from GitHub releases - **no manual steps required!**

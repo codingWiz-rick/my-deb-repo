@@ -1,0 +1,16 @@
+Origin: my-deb-repo
+Label: my-deb-repo
+Suite: stable
+Codename: stable
+Date: Wed, 24 Dec 2025 15:20:40 +0000
+Architectures: all amd64 arm64 armhf i386
+Components: ./
+Description: Flat Debian Repository with GitHub Release Support
+MD5Sum:
+ 6ed46c3e77b57e190e9255e0bee36152 107042 Packages
+ 989195a89357ba6c1030315d79a7b329 35604 Packages.gz
+ 75257b3a1d3df57b68e31bd6d7543524 28957 Packages.bz2
+SHA256:
+ bf31a3488007147ccaadd6add7802feaa100ba3eac7b1df8cd7474878b7e59f5 107042 Packages
+ d65cc6da5defee39c5b6abb744c07c1347c7594158cf57416eebdeb2004ee870 35604 Packages.gz
+ 8e481148d07b815ffcf3134cfe721ea77e94542151b58b0ac2963714ab9de2f5 28957 Packages.bz2
