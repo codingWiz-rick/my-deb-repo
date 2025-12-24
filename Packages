@@ -165,6 +165,22 @@ SHA256: 4858cfedc3f0b406d36f4663374f84110b692d05dc31129750a5646d61c9893f
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
+Package: clang
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 186820
+Depends: libcompiler-rt, lld, llvm, ndk-sysroot, libllvm (= 21.1.7)
+Breaks: libllvm (<< 16.0.0), clangd
+Replaces: libllvm (<< 16.0.0), clangd
+Filename: ./clang_21.1.7_aarch64.deb
+Size: 30433204
+MD5sum: fec2ce5c4bd910081c0c1791d5249f37
+SHA1: f9fd88d11ac525d85a05b4ed638ed7349113d468
+SHA256: 900278c800173d6b894870f4bb1a163b34e971b67f3a7fc9eedaac2706ac152a
+Homepage: https://clang.llvm.org/
+Description: C language frontend for LLVM
+
 Package: command-not-found
 Version: 3.2-8
 Architecture: aarch64
@@ -976,6 +992,21 @@ SHA256: 6d936d43b297a688b272c81a18aa0ea011716a3343c1417a07b1ac5867d3584a
 Homepage: https://people.redhat.com/sgrubb/libcap-ng/
 Description: Static libraries for libcap-ng
 
+Package: libcompiler-rt
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 34020
+Depends: libc++
+Conflicts: libllvm (<< 21.1.3), ndk-multilib (<< 23b-6)
+Filename: ./libcompiler-rt_21.1.7_aarch64.deb
+Size: 2704600
+MD5sum: db59556e48ccf331d42cc71d6e6f129b
+SHA1: 43dcd822271795eff98824c58e279d3b2b393ae3
+SHA256: d11675527c7f9f7ea2e0f7aea24ebc46d71413957d59432fdad9293ee9ed3915
+Homepage: https://clang.llvm.org/
+Description: Compiler runtime libraries for clang
+
 Package: libcrypt
 Version: 0.2-6
 Architecture: aarch64
@@ -1409,6 +1440,37 @@ SHA256: cea8fcd3706f1db12e72dd41ca21a0bcf2940302472742c81a83f241a8571850
 Homepage: https://gnupg.org/related_software/libksba/
 Description: Static libraries for libksba
 
+Package: libllvm
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 169552
+Depends: libc++, libffi, libxml2, ncurses, zlib, zstd
+Conflicts: gcc, clang (<< 3.9.1-3)
+Breaks: libclang, libclang-dev, libllvm-dev
+Replaces: gcc, libclang, libclang-dev, libllvm-dev
+Filename: ./libllvm_21.1.7_aarch64.deb
+Size: 30451256
+MD5sum: 2f8797cf1a715a3648cb8d1ce21d96ec
+SHA1: 16f2abb153d1ad860cda8fc7ff6d36e1d8d7d5fe
+SHA256: ce25c23f3f093f2f36b7b54d21f44ee7897d071ffff90e0d6c5996aca3a96624
+Homepage: https://clang.llvm.org/
+Description: Modular compiler and toolchain technologies library
+
+Package: libllvm-static
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 913124
+Depends: libllvm (= 21.1.7)
+Filename: ./libllvm-static_21.1.7_aarch64.deb
+Size: 87711064
+MD5sum: 4ad2865da4d2176aab16959f77c936d4
+SHA1: 45e2bc4d4d9dc9e104d27529729b94b77ea131bf
+SHA256: cbd0ae060d7b9ec94191a7cc5dd745f27c02cf814cd06829349a06e99662279c
+Homepage: https://clang.llvm.org/
+Description: Static libraries for libllvm
+
 Package: liblz4
 Version: 1.10.0-1
 Architecture: aarch64
@@ -1670,6 +1732,20 @@ SHA1: 7cb58fb6ecf1329e002e6a319c5a90d87fe0dd76
 SHA256: 3f0fbf342832467aa8e5e09eb88ba9db9847f2cc6dbeff704286a5276ea860a2
 Homepage: http://www.libpng.org/pub/png/libpng.html
 Description: Static libraries for libpng
+
+Package: libpolly
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 5816
+Depends: libllvm (= 21.1.7)
+Filename: ./libpolly_21.1.7_aarch64.deb
+Size: 1225956
+MD5sum: 1f3ed40b770c9a0869ddad6f7a7b3563
+SHA1: 30ce5a03b1f0df417fd8e75c0d7458b2fede6f46
+SHA256: e240881787d890bb2aff7388f27b4b0eb206c0a9b22c1d7b688bc6d748db7aed
+Homepage: https://clang.llvm.org/
+Description: High-level loop and data-locality optimizer for clang
 
 Package: libsmartcols
 Version: 2.41.2
@@ -2149,6 +2225,68 @@ SHA256: 23d3e670d664506eb629f75ae6f6eb947fa9f5e2993809f5a21c60222eacf962
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxss
 
+Package: lld
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 20300
+Depends: libllvm (= 21.1.7)
+Filename: ./lld_21.1.7_aarch64.deb
+Size: 2801428
+MD5sum: 12414c1a1899c1a3476df87b964a7678
+SHA1: fb69e54d622c2123511fd1fea423c24526152f14
+SHA256: 464c57231079cbba8cc682061b8077424c8ba8180de9e82a40e23f7b38b09dbf
+Homepage: https://clang.llvm.org/
+Description: LLVM-based linker
+
+Package: lldb
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 26776
+Depends: clang, libandroid-spawn, libc++, libedit, libxml2, python, ncurses-ui-libs, libllvm (= 21.1.7)
+Breaks: lldb-dev, lldb-static
+Replaces: lldb-dev, lldb-static
+Filename: ./lldb_21.1.7_aarch64.deb
+Size: 5479116
+MD5sum: f55177861746c857f674201658817b7a
+SHA1: 9409f9c0d9eb65ee6f83e490f5ddf2fe1b2990a3
+SHA256: ecf19a9b7c512a7045028bdbdce8c06e8c11ca05858004980dba2ec6f4575b53
+Homepage: https://clang.llvm.org/
+Description: LLVM-based debugger
+
+Package: llvm
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 70580
+Depends: libllvm (= 21.1.7)
+Breaks: libllvm (<< 11.0.0-1)
+Replaces: libllvm (<< 11.0.0-1)
+Filename: ./llvm_21.1.7_aarch64.deb
+Size: 14765092
+MD5sum: 3675c9881ef764320fb667e682ccd59c
+SHA1: 648c344639cb0c1e766e0d2f29a43f345867020a
+SHA256: 7338849a3bcb6162e63542da86b4648702612264b279c3d57263dc0b43f63efb
+Homepage: https://clang.llvm.org/
+Description: LLVM modular compiler and toolchain executables
+
+Package: llvm-tools
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 13004
+Depends: libc++, ncurses, zlib, zstd
+Breaks: libllvm (<< 16.0.0)
+Replaces: libllvm (<< 16.0.0)
+Filename: ./llvm-tools_21.1.7_aarch64.deb
+Size: 2376684
+MD5sum: 46caded75521bc1e009bf60eaca83530
+SHA1: 9098d96a501479e3f41ac9a88ec6774d633d764c
+SHA256: 8231a9bd43eacdc70137f2c0585ce0fa1374e8e207b3c0f325afa9a2427ea021
+Homepage: https://clang.llvm.org/
+Description: LLVM Development Tools
+
 Package: lsof
 Version: 4.99.5-2
 Architecture: aarch64
@@ -2206,6 +2344,20 @@ SHA1: fab1700caca6f13c0fd1173d4e92e81388c5aeca
 SHA256: fca4edff0fae858a0a5f321d4cf17d73c56834561851f852ea40b2ec30c5d8d9
 Homepage: https://www.gnu.org/software/make/
 Description: Tool to control the generation of non-source files from source files
+
+Package: mlir
+Version: 21.1.7
+Architecture: aarch64
+Maintainer: @finagolfin
+Installed-Size: 269072
+Depends: libc++, ncurses, libllvm (= 21.1.7)
+Filename: ./mlir_21.1.7_aarch64.deb
+Size: 29674348
+MD5sum: f482a3a2da2cda59f2fdf16abff74969
+SHA1: cda2aacf1830c494967138db045971bb079a5a46
+SHA256: bccfe79cd282b9528a81fbd46b228a7a38e3bc8bd72982c29e7a880c917be2ef
+Homepage: https://clang.llvm.org/
+Description: A Multi-Level Intermediate Representation for compilers from LLVM
 
 Package: mount-utils
 Version: 2.41.2
