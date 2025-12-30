@@ -426,6 +426,36 @@ SHA256: ed1c28824311b246c4c5f474acfc90af15c98265d1a8c464151e617428aafe92
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities to manipulate disk partition tables
 
+Package: file
+Version: 5.46-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 10392
+Depends: zlib
+Breaks: file-dev
+Replaces: file-dev
+Filename: ./file_5.46-2_aarch64.deb
+Size: 397616
+MD5sum: 88c9f25eb5d759fcd633c9bd7055153b
+SHA1: 99f4313d109ed4e3162b7af35d95655f4ca6bf3f
+SHA256: 6e47136708c0dcbe5aff67e0f2c5465fa895116b50af291bbd799a9cb7bbb486
+Homepage: https://darwinsys.com/file/
+Description: Command-line tool that tells you in words what kind of data a file contains
+
+Package: file-static
+Version: 5.46-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 280
+Depends: file (= 5.46-2)
+Filename: ./file-static_5.46-2_aarch64.deb
+Size: 68212
+MD5sum: 6505d6eab0c3f0674a68da891a8d137b
+SHA1: 7006caf5dfb17c99a20581a43e53230d56ad855c
+SHA256: fd217f90addd4a1c390b2024781165243a4b083b1dcbd544bd5a87b7a4bb216c
+Homepage: https://darwinsys.com/file/
+Description: Static libraries for file
+
 Package: findutils
 Version: 4.10.0-1
 Architecture: aarch64
@@ -2984,10 +3014,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 2092
 Filename: ./termux-exec_1:2.4.0-1_aarch64.deb
-Size: 286316
-MD5sum: 3145bc47184229449b507fc8584d062e
-SHA1: 96dfc153aa58474d01a821165fc9d2a8f310227f
-SHA256: 328a5c1bc1ec4cca995204dd167c44c7b076014246e342b0f6bba019d02b0497
+Size: 287184
+MD5sum: c260db057abf816204dcd1d5215b4b9c
+SHA1: 149fc4c1a1af0097e6b8cbba6579290898dc57fa
+SHA256: 2a2a9e088cc33274cafdf039165bc411a94cddd788805b6cdfffdbdb06494e46
 Homepage: https://github.com/termux/termux-exec-package
 Description: Utils and libraries for Termux exec including a LD_PRELOAD shared library for proper functioning of the Termux execution environment
 
@@ -2998,10 +3028,10 @@ Maintainer: @termux
 Installed-Size: 76
 Depends: termux-exec (= 1:2.4.0-1)
 Filename: ./termux-exec-static_1:2.4.0-1_aarch64.deb
-Size: 10524
-MD5sum: 1dabd2e2d143a5483c65a63bb4efbe19
-SHA1: 076657db2d8f0e42375efaf682d591554b2b9644
-SHA256: b2bad94ae96155a1d7e952dbfa24fb66565d78063b16e8bb06b614486e4cab29
+Size: 10928
+MD5sum: 6be918a494da93d6f368c0f3082574ef
+SHA1: af015beb2457bee786d0e0bbedcedb7eb907f7e4
+SHA256: fb86361e91bef1bcc70d3bcd0e168cd8fe5f505037c9ef86a08522f036e36cfe
 Homepage: https://github.com/termux/termux-exec-package
 Description: Static libraries for termux-exec
 

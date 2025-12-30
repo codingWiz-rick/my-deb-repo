@@ -1,6 +1,6 @@
 # Flat Debian Repository with GitHub Release Support
 
-Small packages (<70MB) are in the repo root. Large packages are automatically downloaded from GitHub releases.
+Small packages (<100MB) are in the repo root. Large packages are automatically downloaded from GitHub releases.
 
 ## Add Repository
 
