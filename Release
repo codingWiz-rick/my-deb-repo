@@ -2,15 +2,15 @@ Origin: my-deb-repo
 Label: my-deb-repo
 Suite: stable
 Codename: stable
-Date: Tue, 30 Dec 2025 18:58:31 +0000
+Date: Wed, 31 Dec 2025 08:37:45 +0000
 Architectures: all amd64 arm64 armhf i386
 Components: ./
 Description: Flat Debian Repository with GitHub Release Support
 MD5Sum:
- 556feb460e56d5f4d54236d4429dc3c5 107942 Packages
- fa705e56335d64b8466bf55652718d25 35905 Packages.gz
- 32bd082f9ba30d88e450354aabed09ca 29187 Packages.bz2
+ ed6093ef98613b63db337f50900a9ab7 107942 Packages
+ 6a359efed6dda07a8a1704db2a34def4 35904 Packages.gz
+ 200eb5dc49bea7a149f37a33b805fe89 29180 Packages.bz2
 SHA256:
- 3654c96babb1964ab71dece0a04d2698f3a709f9700cf1c97808c1f088cef1d3 107942 Packages
- e8ae65a84c6def31b5d2df86211a8135e8b2fe30a49afae11ababcbe849b712a 35905 Packages.gz
- 6d583eb73db74a43e4621fd4572d083ffc562bdd0b3c425b0988c2067ee43598 29187 Packages.bz2
+ 8051ccb51ef4177bd94398a86856e7edd6592e0b078317fd450ea3f9ddab8afd 107942 Packages
+ a391066dd0ba7e80c22fbc6054df30756164b5c00c349eb4d7e04a11cce68fcb 35904 Packages.gz
+ 238d081a4108c882ec7993d01acc94bb1b5790ccdb1678d2adb3b4e446909366 29180 Packages.bz2
