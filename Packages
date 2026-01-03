@@ -663,6 +663,36 @@ SHA256: 45a25591fa07694732f18ff1ed7820397bbb60ee833560359f622d3f39d87de1
 Homepage: https://www.gnu.org.ua/software/gdbm/
 Description: Static libraries for gdbm
 
+Package: glib
+Version: 2.86.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 20784
+Depends: libandroid-support, libffi, libiconv, pcre2, resolv-conf, zlib, python
+Breaks: glib-dev, glib-bin
+Replaces: glib-dev, glib-bin
+Filename: ./glib_2.86.3_aarch64.deb
+Size: 2548304
+MD5sum: ae53ac066c9734873cafbdc94b3e4a3f
+SHA1: e689189a7546c99322daa9a5618b12c2f8a77cdc
+SHA256: fd8f6820cf74bc5abd816e9b0cd8ed37efd660155ae5ba0b6f9489fe76740be2
+Homepage: https://developer.gnome.org/glib/
+Description: Library providing core building blocks for libraries and applications written in C
+
+Package: glib-cross
+Version: 2.86.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 82120
+Depends: glib (= 2.86.3)
+Filename: ./glib-cross_2.86.3_all.deb
+Size: 12123088
+MD5sum: 2027b94c086908e36a0d8a92a7a3bfde
+SHA1: b7a8188412e2762e1a756bbf4accdaff3b6418d9
+SHA256: 5e21ffb9c65d81b37c0a028a1e9f373ace953ec170bab2b11b6f5ad7cf01c4a9
+Homepage: https://developer.gnome.org/glib/
+Description: glib for host (NOT for Termux)
+
 Package: gnupg
 Version: 2.5.11
 Architecture: aarch64
@@ -693,6 +723,35 @@ SHA1: 71efc58082bd72f01d59407463007abfadb594a4
 SHA256: 7726a2619141b32a890ea33d38cca27a9fe8f65001e878717beadc20eb6116d2
 Homepage: https://www.gnutls.org/
 Description: Commandline utilities for interfacing with the gnutls library
+
+Package: golang
+Version: 3:1.25.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 187352
+Depends: clang
+Recommends: resolv-conf
+Filename: ./golang_3:1.25.4_aarch64.deb
+Size: 30160484
+MD5sum: c229a85cf546a91f3f1c0e48ace4b52a
+SHA1: 573ecb54744b427bc15b430f1231c68be70a3dfd
+SHA256: 1f36f5f5ed06a53e87ffa1552afe4507f691544b48c3c176fca821bd6e09bd6a
+Homepage: https://go.dev/
+Description: Go programming language compiler
+
+Package: golang-doc
+Version: 3:1.25.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 468
+Depends: golang (= 3:1.25.4)
+Filename: ./golang-doc_3:1.25.4_aarch64.deb
+Size: 93272
+MD5sum: 710e05aba7176a1d910f132ad6382794
+SHA1: c3430a644409ab1525bb75fc2dea8242c0dcfa0f
+SHA256: 28ef2c89dd9f520184a68aed20f88b8aa6b143be1911a68fc663108ec3f9e6f6
+Homepage: https://go.dev/
+Description: Go programming language - documentation
 
 Package: gpgv
 Version: 2.5.11
@@ -2474,6 +2533,35 @@ SHA256: 23d3e670d664506eb629f75ae6f6eb947fa9f5e2993809f5a21c60222eacf962
 Homepage: https://xorg.freedesktop.org/
 Description: Static libraries for libxss
 
+Package: libyaml
+Version: 0.2.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 208
+Breaks: libyaml-dev
+Replaces: libyaml-dev
+Filename: ./libyaml_0.2.5-5_aarch64.deb
+Size: 46352
+MD5sum: a81f30b423cc295ee72d6f0251582383
+SHA1: 7b709b186ddb98999a6fc63c6ba81655683aad1e
+SHA256: 7d9a2d404230c30ccfc741f92f0605acb4b1f85711a05f758bdae5323c5658ca
+Homepage: https://pyyaml.org/wiki/LibYAML
+Description: LibYAML is a YAML 1.1 parser and emitter written in C
+
+Package: libyaml-static
+Version: 0.2.5-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 188
+Depends: libyaml (= 0.2.5-5)
+Filename: ./libyaml-static_0.2.5-5_aarch64.deb
+Size: 42940
+MD5sum: 80fee363c994cfce4ea43a5fe49f46b2
+SHA1: 803f3e920cea3225553905e90c303952b66b2677
+SHA256: 8d83ddb4e1d885e1d578458457cc717d53d13192711747a3f1d7c2cbbfd923a7
+Homepage: https://pyyaml.org/wiki/LibYAML
+Description: Static libraries for libyaml
+
 Package: lld
 Version: 21.1.7
 Architecture: aarch64
@@ -2894,6 +2982,20 @@ SHA256: b079d657f824fe689ba4247c4e1dce247cd912d84f41c3b2d813ab222b1978d8
 Homepage: https://www.gnupg.org/related_software/pinentry/index.html
 Description: Dialog allowing secure password entry
 
+Package: pkg-config
+Version: 0.29.2-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 140
+Depends: glib
+Filename: ./pkg-config_0.29.2-3_aarch64.deb
+Size: 32780
+MD5sum: 3114deca521231b41e2e6814362bcd0e
+SHA1: 521816f09a15a95e69def51e6a47069cb8d819ef
+SHA256: 4e60e250c49fa49d24eac4e88f6d053cbda728cdbd3050c5d5395e16459a006e
+Homepage: https://www.freedesktop.org/wiki/Software/pkg-config/
+Description: Helper tool used when compiling applications and libraries
+
 Package: procps
 Version: 3.3.17-6
 Architecture: aarch64
@@ -2987,6 +3089,21 @@ SHA1: 4a41cdf4e414302c90830068b4d7856648c13961
 SHA256: fc3bf253e2d5cb827aa76e37f389bf69c409efc15db1a16c0ae6a2ddd3f1589f
 Homepage: https://python.org/
 Description: Wheels for Python ensurepip
+
+Package: python-pip
+Version: 25.3
+Architecture: all
+Maintainer: @termux
+Installed-Size: 12908
+Depends: clang, make, pkg-config, python (>= 3.11.1-1)
+Breaks: python (<< 3.11.1-1)
+Filename: ./python-pip_25.3_all.deb
+Size: 2384552
+MD5sum: 1ba3132cd250e4ed3fdbaaa4dfede907
+SHA1: d3f8c707bba2ade08debd2870daa44a88e522828
+SHA256: 289d5586fae88a51a5c6e67a81181a261e57d80f6002b99701cbcbe8f369014c
+Homepage: https://pip.pypa.io/
+Description: The PyPA recommended tool for installing Python packages
 
 Package: python-static
 Version: 3.12.12
@@ -3136,6 +3253,37 @@ SHA1: a9ce7e8061c1853ddcf6cb1bb4f7f4da597364ba
 SHA256: d092accae069c96d4ae57c2c9d5cc990e9663233522175984f46c7742aa0b994
 Homepage: https://github.com/rhash/RHash
 Description: Static libraries for rhash
+
+Package: ruby
+Version: 3.4.1-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 42832
+Depends: libandroid-execinfo, libandroid-support, libffi, libgmp, readline, openssl, libyaml, zlib
+Recommends: clang, make, pkg-config, resolv-conf
+Breaks: ruby-dev
+Replaces: ruby-dev
+Filename: ./ruby_3.4.1-2_aarch64.deb
+Size: 8380216
+MD5sum: 2d24c688115a76b0f95ecbb761838cba
+SHA1: 862a0d194cf8d80522faeb575a08dc86a0caef4b
+SHA256: f047a96f6e72786b52e20437c829776065ba79f3e1d38cef1e8067cfba104c0d
+Homepage: https://www.ruby-lang.org/
+Description: Dynamic programming language with a focus on simplicity and productivity
+
+Package: ruby-ri
+Version: 3.4.1-2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 70268
+Depends: ruby (= 3.4.1-2)
+Filename: ./ruby-ri_3.4.1-2_all.deb
+Size: 1831232
+MD5sum: 7c7aae6cfab1181c8d543616e27bc7a4
+SHA1: fd170f62e255905bb19548e550c21c642fdde625
+SHA256: f1ffbee2eff2eca3db3574cbbccdf2edbe9d8d414f33b36ea6c95a48b18af138
+Homepage: https://www.ruby-lang.org/
+Description: Ruby documentation index
 
 Package: rust
 Version: 1.92.0
