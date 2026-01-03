@@ -2,15 +2,15 @@ Origin: my-deb-repo
 Label: my-deb-repo
 Suite: stable
 Codename: stable
-Date: Sat, 03 Jan 2026 19:05:04 +0000
+Date: Sat, 03 Jan 2026 19:45:09 +0000
 Architectures: all amd64 arm64 armhf i386
 Components: ./
 Description: Flat Debian Repository with GitHub Release Support
 MD5Sum:
- 7d39c5fa2afcbf159946f749ddfdeb14 212599 Packages
- 5fe6561f3497d058076c8569b944f998 71355 Packages.gz
- a257173c2273cd75d348d18ac4330f27 55892 Packages.bz2
+ aa03e593eda303420feaf152467164d2 236672 Packages
+ e1a29d389167606890dadd29f42b0704 79479 Packages.gz
+ 05ea469b6a9c730513b3735b5e41d7e7 61850 Packages.bz2
 SHA256:
- c0531afa548750ade94317fe2e15c2fc0219219a8b7919a8b965a06a96726684 212599 Packages
- 776cb31a81a5a6826ae5262a13f7beb952c0529e6ae7d9e92ea897178821d65c 71355 Packages.gz
- 2ed55daada0222367c825ea5cc32750d16a6cc5208acaaef86019e0f66c53819 55892 Packages.bz2
+ 1789de35538d9cd5a61adb22112c4ef99608ec187484dde691eb78f0c38b59dd 236672 Packages
+ 385a3a8b2a49ca5d4d893333abc86f7985eb5b9bb1629bbbd37ee5857d2a3e0e 79479 Packages.gz
+ 6774579c80397671a372b71cba5f2c81dd82aa8b57609c9d943dce71a1d728ae 61850 Packages.bz2
