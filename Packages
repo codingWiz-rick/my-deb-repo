@@ -123,6 +123,34 @@ SHA256: d0ea8a003c2f0eb9a2b344023a25f375c81d21e9a390830dadbd500978cb7063
 Homepage: https://github.com/google/brotli
 Description: lossless compression algorithm and format (command line utility)
 
+Package: bsdtar
+Version: 3.8.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1492
+Depends: libarchive (= 3.8.4)
+Filename: ./bsdtar_3.8.4_aarch64.deb
+Size: 347744
+MD5sum: 2f64637e75a21405791fad59e4372932
+SHA1: 9d266036337c4d5966454eb542c5a2c22ac8b92a
+SHA256: fffadf1a4bba9c4b7a1cc22dcfc8875a454969c83fdbd6ad1f073b757bec9ddb
+Homepage: https://www.libarchive.org/
+Description: The tar(1) and cpio(1) programs from FreeBSD, using libarchive
+
+Package: busybox
+Version: 1.37.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1020
+Depends: libandroid-selinux
+Filename: ./busybox_1.37.0-3_aarch64.deb
+Size: 466016
+MD5sum: 7b8d26dee405503ca02093a6cbad7bcc
+SHA1: 087a14537ddbff3d70b09813617565c53273bd7a
+SHA256: 10b5c2b327571ae1ccb7562afe46f5396615877e886659ad6540b2d577714f9f
+Homepage: https://busybox.net/
+Description: Tiny versions of many common UNIX utilities into a single small executable
+
 Package: bzip2
 Version: 1.0.8-8
 Architecture: aarch64
@@ -180,6 +208,35 @@ SHA1: f9fd88d11ac525d85a05b4ed638ed7349113d468
 SHA256: 900278c800173d6b894870f4bb1a163b34e971b67f3a7fc9eedaac2706ac152a
 Homepage: https://clang.llvm.org/
 Description: C language frontend for LLVM
+
+Package: cmake
+Version: 4.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52372
+Depends: libarchive, libc++, libcurl, libexpat, jsoncpp, libuv, rhash, zlib
+Recommends: clang, make
+Filename: ./cmake_4.2.1_aarch64.deb
+Size: 9817416
+MD5sum: c5ce5a791422d49c3db3050592611320
+SHA1: 7d8e906192c0b0793698b6fced64443450a74f79
+SHA256: 3ce9bcb55e5e9c7eaa741c3e310545b258fff203f384a83477aee502c88c7fcc
+Homepage: https://cmake.org/
+Description: Family of tools designed to build, test and package software
+
+Package: cmake-curses-gui
+Version: 4.2.1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 8692
+Depends: ncurses-ui-libs, cmake (= 4.2.1)
+Filename: ./cmake-curses-gui_4.2.1_aarch64.deb
+Size: 2298376
+MD5sum: 79de41b7fa3ee442523e22c517bc1cbc
+SHA1: cef9f8bc1cf911cb981dc58b225cd025aaba801c
+SHA256: 410a5ad45294176f1143e052c5a350adb8d0b6d51245b394026ec55b5adc190d
+Homepage: https://cmake.org/
+Description: Curses based user interface for CMake (ccmake)
 
 Package: command-not-found
 Version: 3.2-8
@@ -736,6 +793,36 @@ SHA256: 2a4bf4c822646eee6f5922ed7faa8a62af298b91c24271249df80fa84ec2ac7c
 Homepage: https://www.gnu.org/software/inetutils/
 Description: Collection of common network programs
 
+Package: jsoncpp
+Version: 1.9.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 436
+Depends: libc++
+Breaks: jsoncpp-dev
+Replaces: jsoncpp-dev
+Filename: ./jsoncpp_1.9.6-2_aarch64.deb
+Size: 93320
+MD5sum: 99bc840081cbe477be0f8bfa7d14d92b
+SHA1: f3bddba91777121813fa228546e6bb289ba045a6
+SHA256: 56e35f33c729a966837531b5c9f766fa6d36711fa7c51471d7da8cf6f4dbcc97
+Homepage: https://github.com/open-source-parsers/jsoncpp
+Description: C++ library for interacting with JSON
+
+Package: jsoncpp-static
+Version: 1.9.6-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 460
+Depends: jsoncpp (= 1.9.6-2)
+Filename: ./jsoncpp-static_1.9.6-2_aarch64.deb
+Size: 71276
+MD5sum: b2d567b90e92125645e152c7fd8b757a
+SHA1: 79c61a5923f17983f978d5ab0ea122f85e338ddf
+SHA256: f3c658068802e48be3581ee0f82affe13db62ad47cdb274c5af1bd6fc06ba5e4
+Homepage: https://github.com/open-source-parsers/jsoncpp
+Description: Static libraries for jsoncpp
+
 Package: less
 Version: 685
 Architecture: aarch64
@@ -779,6 +866,35 @@ SHA1: 23f4afb7bc287f6d712ae3c0fec7f98889f5679d
 SHA256: 0d9abe748d428c0950a601b6178d09f68ee9fd55e7871e92b565706a43b95553
 Homepage: http://savannah.nongnu.org/projects/acl
 Description: Static libraries for libacl
+
+Package: libandroid-execinfo
+Version: 0.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 88
+Conflicts: libexecinfo
+Provides: libexecinfo
+Filename: ./libandroid-execinfo_0.1-3_aarch64.deb
+Size: 15216
+MD5sum: becfb5a264ac1d248ece82283cab4297
+SHA1: ef959e1c2af10aef535f938fa3adacc16eeaa040
+SHA256: 3818b9bbecc06939e30b2465e9f724ec6439eece2accedbf5fdb40f5289237a6
+Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
+Description: Shared library for the backtrace system function
+
+Package: libandroid-execinfo-static
+Version: 0.1-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 36
+Depends: libandroid-execinfo (= 0.1-3)
+Filename: ./libandroid-execinfo-static_0.1-3_aarch64.deb
+Size: 2400
+MD5sum: 324f733bce122f01d0a11cf88befe5f7
+SHA1: 36d1456c0c154eff82395f33087b7c774984b7f5
+SHA256: 7056484fe02d8af48485a690b82ea452b6ce3cff61a45db6777d82141ec1d25b
+Homepage: https://man7.org/linux/man-pages/man3/backtrace.3.html
+Description: Static libraries for libandroid-execinfo
 
 Package: libandroid-glob
 Version: 0.6-3
@@ -932,6 +1048,36 @@ SHA1: d264804a59f99544b73aa545db3fd8d54ede67c2
 SHA256: 610c76be41bdfebf41634acaa775bace7425cac376962e9ca1c2b07561ef3953
 Homepage: https://github.com/termux/libandroid-utimes
 Description: Static libraries for libandroid-utimes
+
+Package: libarchive
+Version: 3.8.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1028
+Depends: libbz2, libiconv, liblzma, libxml2, openssl, zlib
+Breaks: libarchive-dev
+Replaces: libarchive-dev
+Filename: ./libarchive_3.8.4_aarch64.deb
+Size: 390860
+MD5sum: 23e69d1148da0f4988097095b652026a
+SHA1: 4af17ca455df700452815346db8121742f023c5e
+SHA256: 632f1ef7770fb9f30f43835d3c0a3bc0c11430cb7f68f36d2411e4da84758cdf
+Homepage: https://www.libarchive.org/
+Description: Multi-format archive and compression library
+
+Package: libarchive-static
+Version: 3.8.4
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2012
+Depends: libarchive (= 3.8.4)
+Filename: ./libarchive-static_3.8.4_aarch64.deb
+Size: 358964
+MD5sum: a4b9e641f0dfac4ab703723569cdf014
+SHA1: 378b7dd72cfd592a2621483e9e9511bc2089ea9f
+SHA256: 2ea2b5e110ac7bcbcb8c1e66c37c920ef7fdee7b29adc373e3cb27090894c676
+Homepage: https://www.libarchive.org/
+Description: Static libraries for libarchive
 
 Package: libassuan
 Version: 3.0.2-1
@@ -1504,15 +1650,30 @@ Package: libllvm-static
 Version: 21.1.7
 Architecture: aarch64
 Maintainer: @finagolfin
-Installed-Size: 913124
+Installed-Size: 913128
 Depends: libllvm (= 21.1.7)
 Filename: ./libllvm-static_21.1.7_aarch64.deb
 Size: 87711064
-MD5sum: 4ad2865da4d2176aab16959f77c936d4
-SHA1: 45e2bc4d4d9dc9e104d27529729b94b77ea131bf
-SHA256: cbd0ae060d7b9ec94191a7cc5dd745f27c02cf814cd06829349a06e99662279c
+MD5sum: 9399a47d45566527eca2a0e909b21d00
+SHA1: b416cb494c4da5b616670c35288cdb690665e52f
+SHA256: c5d29932359ab89898f7392eb2b9738e70d5914e8b0e75d4ec33f6f5aa42dd60
 Homepage: https://clang.llvm.org/
 Description: Static libraries for libllvm
+
+Package: libltdl
+Version: 2.5.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 96
+Breaks: libtool (<< 2.4.7-2)
+Replaces: libtool (<< 2.4.7-2)
+Filename: ./libltdl_2.5.4-2_aarch64.deb
+Size: 17956
+MD5sum: 08508f8e4984fa6aca69522136ed28ce
+SHA1: 8eaebf2a8a93a00246841b208916e8e10f898564
+SHA256: 9bcf4c4b9e227dec96fd014a4c8ad73b64dd1b89153805572a75807c26fe1846
+Homepage: https://www.gnu.org/software/libtool/
+Description: Library for dlopening libraries
 
 Package: liblz4
 Version: 1.10.0-1
@@ -1907,6 +2068,22 @@ SHA256: 6480b25ecb2ab86d0fe997f9ba6498c513606b32bf874963fc5a7d8954b720ab
 Homepage: http://git.linux-nfs.org/?p=steved/libtirpc.git
 Description: Static libraries for libtirpc
 
+Package: libtool
+Version: 2.5.4-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2788
+Depends: bash, grep, sed, libltdl
+Conflicts: libtool-dev, libtool-static
+Replaces: libtool-dev, libtool-static
+Filename: ./libtool_2.5.4-2_aarch64.deb
+Size: 392012
+MD5sum: b43bb031d9c35c7b9e192911cc3c04d5
+SHA1: 10acc37b51cd6008f061aa458cf8bf3ed9054ad2
+SHA256: f0249e4546d5a3b938a8f73e50544d9dfe6e7966c989302b31a669337f0c057e
+Homepage: https://www.gnu.org/software/libtool/
+Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+
 Package: libunbound
 Version: 1.24.2
 Architecture: aarch64
@@ -2010,6 +2187,35 @@ SHA1: 694b877240157089f422b6d53cedc6b222be9182
 SHA256: ac4c94d48e49ba7313357b6b889753e01882dbc058755b7e30a72bc55b233858
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Library for handling universally unique identifiers
+
+Package: libuv
+Version: 1.51.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Breaks: libuv-dev
+Replaces: libuv-dev
+Filename: ./libuv_1.51.0-1_aarch64.deb
+Size: 81260
+MD5sum: 7d676aecf40695ada242b7b54e6b979b
+SHA1: 7a3a265872c3e5506fefa71a19311b299d2a1afa
+SHA256: f494faab074a3b2360ffd26a0eda1d91be32b14d687021edecf9c1231eaac046
+Homepage: https://libuv.org
+Description: Support library with a focus on asynchronous I/O
+
+Package: libuv-static
+Version: 1.51.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1552
+Depends: libuv (= 1.51.0-1)
+Filename: ./libuv-static_1.51.0-1_aarch64.deb
+Size: 284308
+MD5sum: a3397c681ce045377f8f5cb628f69ec9
+SHA1: 77c6d31623373025d332cec427e55a334826865c
+SHA256: 6a2eadc69a2a5baeab531a589a3d7061f0b6174bde12388c8446cde17391315c
+Homepage: https://libuv.org
+Description: Static libraries for libuv
 
 Package: libx11
 Version: 1.8.12-1
@@ -2302,15 +2508,15 @@ Package: llvm
 Version: 21.1.7
 Architecture: aarch64
 Maintainer: @finagolfin
-Installed-Size: 70580
+Installed-Size: 70576
 Depends: libllvm (= 21.1.7)
 Breaks: libllvm (<< 11.0.0-1)
 Replaces: libllvm (<< 11.0.0-1)
 Filename: ./llvm_21.1.7_aarch64.deb
 Size: 14765092
-MD5sum: 3675c9881ef764320fb667e682ccd59c
-SHA1: 648c344639cb0c1e766e0d2f29a43f345867020a
-SHA256: 7338849a3bcb6162e63542da86b4648702612264b279c3d57263dc0b43f63efb
+MD5sum: c39e512f2ea3713b83e0265518cfb193
+SHA1: c2f82fdde8df5fdad1ed39195589249fe2fde3a6
+SHA256: 1536d22ba69f8627dcbbc4a471b0c3db73ddc8287f7934dddb59ec59ab0851ce
 Homepage: https://clang.llvm.org/
 Description: LLVM modular compiler and toolchain executables
 
@@ -2371,6 +2577,19 @@ SHA1: 7feb82e443dc18bde31c21a1340df5f424035651
 SHA256: a0a7efd72f739f1da83bbca02a7db720bba2aba4f3d71ad56f04e02748ebc369
 Homepage: https://lz4.github.io/lz4/
 Description: Fast LZ compression algorithm tool
+
+Package: m4
+Version: 1.4.19-5
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 672
+Filename: ./m4_1.4.19-5_aarch64.deb
+Size: 191576
+MD5sum: 3e2b0479185da28ab40a432495b1101b
+SHA1: d465cea83966b0db62311b8b0d8797c35f266eff
+SHA256: bf5bd415709c5cab8dabc364753178c886ee6337ecc014133e55c4f634a2db67
+Homepage: https://www.gnu.org/software/m4/m4.html
+Description: Traditional Unix macro processor
 
 Package: make
 Version: 4.4.1-1
@@ -2721,6 +2940,19 @@ SHA256: e187f52911cddc06c2aae24f8603b9a63512b37e8c02f877bd6719cbee1f439d
 Homepage: https://gitlab.com/psmisc/psmisc
 Description: Some small useful utilities that use the proc filesystem
 
+Package: pv
+Version: 1.10.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 828
+Filename: ./pv_1.10.3_aarch64.deb
+Size: 288828
+MD5sum: 764275dbd201a2965d95392c059c4eb7
+SHA1: 5e08a950c3b47aaf3898c564fda74d1640c39036
+SHA256: 6d585e0b3e8011cf3a781c9bdebd33ace81afc8085ac1391c2dbebbd14069d2e
+Homepage: https://www.ivarch.com/programs/pv.shtml
+Description: Terminal-based tool for monitoring the progress of data through a pipeline
+
 Package: python
 Version: 3.12.12
 Architecture: aarch64
@@ -2874,6 +3106,223 @@ SHA1: 429f85e82fb08b4d1bff2d76f5797e745fa5d280
 SHA256: b858faccfe8ed0c8113610cca01a50b49108dc0f2e875ecb7f54d5ff07ea5cd3
 Homepage: https://man7.org/linux/man-pages/man5/resolv.conf.5.html
 Description: Resolver configuration file
+
+Package: rhash
+Version: 1.4.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 384
+Depends: openssl
+Conflicts: librhash, rhash-dev
+Replaces: librhash, rhash-dev
+Filename: ./rhash_1.4.6-1_aarch64.deb
+Size: 162344
+MD5sum: 15be5593068842b925eb843a60dd9039
+SHA1: 3944a9d815d1083d3bbdf6f7ee7d462d3869bd1a
+SHA256: 71b1e996066ca2aa691ec9c6d75db651e1c0a99246f7b21911d3329714fa18a2
+Homepage: https://github.com/rhash/RHash
+Description: Console utility for calculation and verification of magnet links and a wide range of hash sums
+
+Package: rhash-static
+Version: 1.4.6-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 352
+Depends: rhash (= 1.4.6-1)
+Filename: ./rhash-static_1.4.6-1_aarch64.deb
+Size: 130844
+MD5sum: f3eab763e3ba295be68670972025a866
+SHA1: a9ce7e8061c1853ddcf6cb1bb4f7f4da597364ba
+SHA256: d092accae069c96d4ae57c2c9d5cc990e9663233522175984f46c7742aa0b994
+Homepage: https://github.com/rhash/RHash
+Description: Static libraries for rhash
+
+Package: rust
+Version: 1.92.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 179000
+Depends: clang, libandroid-execinfo, libc++, libllvm (<< 22), lld, openssl, zlib, rust-std-aarch64-linux-android
+Suggests: rust-analyzer
+Filename: ./rust_1.92.0_aarch64.deb
+Size: 36947080
+MD5sum: 9914890aa33e92b768395da2f1a47883
+SHA1: 80b34463433d3969e28240bce29e8f24bbeea257
+SHA256: bf0f8566e5af442fe8e006fe6c3d2ed5fa2d4d60c7260ed22146827da2323d4d
+Homepage: https://www.rust-lang.org/
+Description: Systems programming language focused on safety, speed and concurrency
+
+Package: rust-docs
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 710324
+Filename: ./rust-docs_1.92.0_all.deb
+Size: 30253196
+MD5sum: f9174bb45f7230ab14b061b441b709f6
+SHA1: d6226e3801822d28b3e087d9f69d4ab5a85ca2d4
+SHA256: 752a006d85cd417ad47f71908d653d8fc4f96a5d80f7aa03e80bd8c22de14260
+Homepage: https://www.rust-lang.org/
+Description: Rust documentation
+
+Package: rust-src
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 44608
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rust-src_1.92.0_all.deb
+Size: 3637956
+MD5sum: f27918c4c4775c27cf4baa31b6616ea1
+SHA1: 1abda084fb8087ad5cbf2b2f5067bcfda2d29bbe
+SHA256: d8bc42589052f8d220c4d8c1da2ebc79b1f6899235fbe8378d034d90c1e33f37
+Homepage: https://www.rust-lang.org/
+Description: Rust source code files
+
+Package: rust-std-aarch64-linux-android
+Version: 1.92.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 121016
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rust-std-aarch64-linux-android_1.92.0_aarch64.deb
+Size: 27364936
+MD5sum: 410cd3c19d12afe674fe858cc82825c3
+SHA1: fb64959b81c528456444bef800daf4af88f407ed
+SHA256: 012ebc03157e40a1a4dfb28c4861c5c4954a17d0d24429a78cc0de1922e61639
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target aarch64-linux-android
+
+Package: rust-std-armv7-linux-androideabi
+Version: 1.92.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 105592
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rust-std-armv7-linux-androideabi_1.92.0_aarch64.deb
+Size: 25059892
+MD5sum: 36a63bae44d63e5b4fb80cfeae532e4c
+SHA1: c7b96c81120ec6739c7ac28a7e5e13a7478c304e
+SHA256: ec43f9ff93265c4691e18bbb379d36f39912d262a113a1d0d405ae8f097b0fca
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target armv7-linux-androideabi
+
+Package: rust-std-i686-linux-android
+Version: 1.92.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 117208
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rust-std-i686-linux-android_1.92.0_aarch64.deb
+Size: 26625704
+MD5sum: 08b3cedb3549306c7e82c6d9c62b3834
+SHA1: f8bf746b13259d138f61e2d7af7ed10e90c65e16
+SHA256: b4430c51b18e8e0023cc75735c9ad0a5746cd6e63984534f48725ef91fe0526b
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target i686-linux-android
+
+Package: rust-std-wasm32-unknown-unknown
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 82040
+Breaks: rust-std-wasm32 (<< 1.74.1-1)
+Replaces: rust-std-wasm32 (<< 1.74.1-1)
+Filename: ./rust-std-wasm32-unknown-unknown_1.92.0_all.deb
+Size: 19713236
+MD5sum: 4e76281ece5f93fad242551543172c33
+SHA1: 749b7ae205ae7e6ae84d340c4971ff4c7ffa13aa
+SHA256: 6ec2aee3d7da2e28ed8029bda30b4600d660ba011d72fb5b76c2dab214eae623
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-unknown-unknown
+
+Package: rust-std-wasm32-wasip1
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 85960
+Filename: ./rust-std-wasm32-wasip1_1.92.0_all.deb
+Size: 20720144
+MD5sum: f7c001cf1044d218d150ee4a73d6cd85
+SHA1: 9ad609f1d029b42c6d8fd748e3785f9bfbade281
+SHA256: a06da8b58a7f4b24e751fa87e24d1a821a0686d302783f688bd0616ea57b35e7
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip1
+
+Package: rust-std-wasm32-wasip2
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 88452
+Filename: ./rust-std-wasm32-wasip2_1.92.0_all.deb
+Size: 21231144
+MD5sum: 61e7ff7b306566661bb59979232ada42
+SHA1: e5f9b2784e521706e5632b9e25dbb1dcbc8a3e0a
+SHA256: 26bd1c94e141df8f5744930ddeed556188e033ca68b8fa8b33448247ecdc4e7b
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip2
+
+Package: rust-std-wasm32-wasip3
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 88452
+Filename: ./rust-std-wasm32-wasip3_1.92.0_all.deb
+Size: 21314784
+MD5sum: b0c4fc85e0a9c0c8a02d1476cd86f641
+SHA1: f468d0e22804f0d6835fbe7aa6d52781c9ab6f76
+SHA256: 6005110485096c3d98be52a085304df879ddfe108d545d73073f626847c4d68b
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target wasm32-wasip3
+
+Package: rust-std-x86-64-linux-android
+Version: 1.92.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 121968
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rust-std-x86-64-linux-android_1.92.0_aarch64.deb
+Size: 26983644
+MD5sum: a7b028f58552ce0c7f2cc7bbe94d1c2d
+SHA1: 65c57e6b3efc3bbad69ccdbe3ac7e1b270d638f2
+SHA256: f93d99b7795a3168c537ffa061ebdc07802314d91ac2a557fff19ff6502ca50b
+Homepage: https://www.rust-lang.org/
+Description: Rust std for target x86_64-linux-android
+
+Package: rustc-dev
+Version: 1.92.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 290796
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rustc-dev_1.92.0_aarch64.deb
+Size: 72559456
+MD5sum: 35afac8f059973cba351a639fb38d80e
+SHA1: f725cc9f58f6841e8971777bbac2bd1e7667a891
+SHA256: fc704696faf18849f982ddb5915785bcdab61abb9f26dfa914b3704e02c1bcc9
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler development libs
+
+Package: rustc-src
+Version: 1.92.0
+Architecture: all
+Maintainer: @termux
+Installed-Size: 40888
+Breaks: rust (<< 1.74.1-1)
+Replaces: rust (<< 1.74.1-1)
+Filename: ./rustc-src_1.92.0_all.deb
+Size: 5188836
+MD5sum: 1f7fe7f656db4cbf244bde0f4a795982
+SHA1: 0f6287c1256ca7255bf427e8ef5c3566d111f19f
+SHA256: e1452d9a6c10f2813ad220b7b48015d1ebdc405db008b355d8f5933fe14a3be2
+Homepage: https://www.rust-lang.org/
+Description: Rust compiler source code files
 
 Package: scdaemon
 Version: 2.5.11
@@ -3236,6 +3685,20 @@ SHA1: 9cfd07f5caf4efbbb1342447589c9b1842e30469
 SHA256: 439a5be3219a2702081a200cfc05d783d2c50026247c28b889d9279d84d97be4
 Homepage: https://en.wikipedia.org/wiki/Util-linux
 Description: Utilities for handling universally unique identifiers
+
+Package: wasi-libc
+Version: 29
+Architecture: all
+Maintainer: @termux
+Installed-Size: 253236
+Recommends: wasm-component-ld
+Filename: ./wasi-libc_29_all.deb
+Size: 44196892
+MD5sum: 6e41170d19ea453b103b3560c6250285
+SHA1: 03feb38b5db63c4a138f08e0468c0fdad2d6b41c
+SHA256: e126717cb9f5717282d3d733c713bc040211882c1d8da3bf199b0761cd226d33
+Homepage: https://wasi.dev/
+Description: Libc for WebAssembly programs built on top of WASI system calls
 
 Package: xcb-proto
 Version: 1.17.0-1
