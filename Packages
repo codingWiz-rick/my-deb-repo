@@ -158,10 +158,10 @@ Maintainer: @termux
 Installed-Size: 208
 Depends: ca-certificates (= 1:2025.12.02)
 Filename: ./ca-certificates-java_1:2025.12.02_all.deb
-Size: 113856
-MD5sum: dde1cbf7fbd3aa48bedb3a827b4b19e2
-SHA1: 14f468b42bb44437e96466cd8f047f23bb692cfd
-SHA256: 03721d8b3b8d7859e6381ef3437120f040c6307001c01b0a31a3327e2616859e
+Size: 113772
+MD5sum: 33339018c40e146d37ebdbd8cdffae8e
+SHA1: fed337efb3f0ccaa84fb62eb49ef0d2495466c15
+SHA256: c6188b6d8614f74249d8a6ccee7197a2e680111cf65f9a2b29e05c480b65f231
 Homepage: https://curl.se/docs/caextract.html
 Description: Common CA certificates (java keystore format)
 
@@ -679,6 +679,19 @@ SHA1: 74ba8e9bb3e05fc7f0c218d66d84e422d4461e31
 SHA256: 654e39a072d94156622d7f8a0b950b8f0b192b00a9602eff3b9633ab76dd9c4a
 Homepage: https://www.gnu.org/software/gzip/
 Description: Standard GNU file compression utilities
+
+Package: hyperfine
+Version: 1.20.0
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 1248
+Filename: ./hyperfine_1.20.0_aarch64.deb
+Size: 446928
+MD5sum: 09fa9d1a7bfb12745164273892e04be2
+SHA1: fd785250c9ac60dcb516f6a91dcade5675678b18
+SHA256: 52da8a0c2003a456bd80bd6b61bcf8f406e34b21e8bab93d1c6eec5ba75ff562
+Homepage: https://github.com/sharkdp/hyperfine
+Description: A command-line benchmarking tool
 
 Package: iconv
 Version: 1.18-1
@@ -2044,14 +2057,14 @@ Package: libxcb
 Version: 1.17.0-1
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 12768
+Installed-Size: 12764
 Depends: libxau, libxdmcp
 Recommends: xorg-xauth
 Filename: ./libxcb_1.17.0-1_aarch64.deb
-Size: 914656
-MD5sum: 9efcf1d4c8d2c1c493a0bbf1a0ca81e1
-SHA1: 3dbed7d97ed23d1d1c0f97111239698012a7a24b
-SHA256: d7c363a660bb2bad279238b9cc40b6c6df515ffea5915682348fd3a764b55f4d
+Size: 914652
+MD5sum: 6296a579ae3beb1397505e3c8e591dcb
+SHA1: 1f3a5edb065bc352f6969c316eed6d74eb3701f2
+SHA256: 627bc4c57b224fc8f0bb8f90712b3b530e91324343ff9cbcacfd0ba92340be19
 Homepage: https://xcb.freedesktop.org/
 Description: X11 client-side library
 
@@ -2440,10 +2453,10 @@ Maintainer: @termux
 Installed-Size: 780
 Depends: ncurses (= 6.5.20240831-3)
 Filename: ./ncurses-static_6.5.20240831-3_aarch64.deb
-Size: 153212
-MD5sum: 5d83fc9fee7fd9574f7a1eadb78c753f
-SHA1: 3aa3496e780d35bb35638ffa410d9a5ed4362af2
-SHA256: 3f0da816f312415d294fff04ce9865f77df014d0f5b4c34cab6430765f2076f6
+Size: 153388
+MD5sum: e7f1f6c87e7fd03a09618a4b051dfe29
+SHA1: 8f0051b742fce617a4ea4a9382b93b8ee802ce27
+SHA256: e761687e7cac7e359c8f4aaf1dc113af1365794f0ffc43100d90f26b963e0eab
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for ncurses
 
@@ -2470,10 +2483,10 @@ Maintainer: @termux
 Installed-Size: 260
 Depends: ncurses-ui-libs, ncurses (= 6.5.20240831-3)
 Filename: ./ncurses-ui-libs-static_6.5.20240831-3_aarch64.deb
-Size: 39496
-MD5sum: 6e560be1391980449b36db68566f0d8e
-SHA1: c06c1bf70fc4f6e113b0b08789926cb65653c6a2
-SHA256: 10a557455ba2a8d91c040ee4d685c3c27107b0bbf0317c781440c804fe04a393
+Size: 39492
+MD5sum: 322be3e3401b4e8265cb877e9fbe80bf
+SHA1: 599db783b0495c947a53834dac08f6f6226cecb6
+SHA256: 6583ab0ecf628ba3bdc675b96dcde9c9cabc80dd339e4dcde88286f52f936328
 Homepage: https://invisible-island.net/ncurses/
 Description: Static libraries for terminal user interfaces based on ncurses
 
@@ -2986,10 +2999,10 @@ Essential: yes
 Maintainer: @termux
 Installed-Size: 1948
 Filename: ./termux-core_0.4.0-1_aarch64.deb
-Size: 196664
-MD5sum: 7b4ceda907bc01d594a809cc66a9f3d0
-SHA1: 433b32167b3cc46cef9a77d2c8b1960461ff7dcb
-SHA256: 62969406f01a625bfb6fc34ea91f72319d52b46958cdd285a7babfcd528b550e
+Size: 197472
+MD5sum: be7683d80db673f19fb7c8d09e9969a6
+SHA1: ff3e011f3c96709bdc2df5c6f105fc39b1d4d814
+SHA256: 0ec05639198df33cd45a39606cb1f162fd70ae4d532d657f6d2c93b3a55e4b76
 Homepage: https://github.com/termux/termux-core-package
 Description: Utils and libraries for Termux core
 
@@ -3021,6 +3034,20 @@ SHA256: 2a2a9e088cc33274cafdf039165bc411a94cddd788805b6cdfffdbdb06494e46
 Homepage: https://github.com/termux/termux-exec-package
 Description: Utils and libraries for Termux exec including a LD_PRELOAD shared library for proper functioning of the Termux execution environment
 
+Package: termux-exec
+Version: 1:2.4.0-3
+Architecture: aarch64
+Essential: yes
+Maintainer: @termux
+Installed-Size: 2092
+Filename: ./termux-exec_1:2.4.0-3_aarch64.deb
+Size: 286932
+MD5sum: ce280b7efb094e2d0cbcec586b80d810
+SHA1: 48ac5c0dfbd3cf9c6476fd26c891a76e97921613
+SHA256: 9324e770c46bf7278962209f764b577d83e90d41075ad6c89fc6e8a171fb251b
+Homepage: https://github.com/termux/termux-exec-package
+Description: Utils and libraries for Termux exec including a LD_PRELOAD shared library for proper functioning of the Termux execution environment
+
 Package: termux-exec-static
 Version: 1:2.4.0-1
 Architecture: aarch64
@@ -3032,6 +3059,20 @@ Size: 10928
 MD5sum: 6be918a494da93d6f368c0f3082574ef
 SHA1: af015beb2457bee786d0e0bbedcedb7eb907f7e4
 SHA256: fb86361e91bef1bcc70d3bcd0e168cd8fe5f505037c9ef86a08522f036e36cfe
+Homepage: https://github.com/termux/termux-exec-package
+Description: Static libraries for termux-exec
+
+Package: termux-exec-static
+Version: 1:2.4.0-3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 76
+Depends: termux-exec (= 1:2.4.0-3)
+Filename: ./termux-exec-static_1:2.4.0-3_aarch64.deb
+Size: 10928
+MD5sum: 433892af8363bc61778a1037754015bc
+SHA1: fc4a3abc602b63cda8a1d7400f3be6ee40024338
+SHA256: 7f6ea3e242c78905feb8315f38a572d04194903336df463f7b509832b85abac3
 Homepage: https://github.com/termux/termux-exec-package
 Description: Static libraries for termux-exec
 
