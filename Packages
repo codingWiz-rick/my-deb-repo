@@ -794,15 +794,15 @@ Package: file
 Version: 5.46-2
 Architecture: aarch64
 Maintainer: @termux
-Installed-Size: 10392
+Installed-Size: 10400
 Depends: zlib
 Breaks: file-dev
 Replaces: file-dev
 Filename: ./file_5.46-2_aarch64.deb
 Size: 397616
-MD5sum: 88c9f25eb5d759fcd633c9bd7055153b
-SHA1: 99f4313d109ed4e3162b7af35d95655f4ca6bf3f
-SHA256: 6e47136708c0dcbe5aff67e0f2c5465fa895116b50af291bbd799a9cb7bbb486
+MD5sum: 9029f18bd209a354fad960503b2dcb52
+SHA1: fa882b762190acdafc86c50c964a97550b96ebbd
+SHA256: d692dbafa751cd913e4b6bf544daaaf6d8208368c6f5a78a00624720a5a815f6
 Homepage: https://darwinsys.com/file/
 Description: Command-line tool that tells you in words what kind of data a file contains
 
@@ -3939,6 +3939,35 @@ SHA256: 8b9c89dcc743c8574ce34305adbbfcf4d8cf228832fc3b37dc88080f5dfb17a3
 Homepage: https://www.libssh2.org
 Description: Static libraries for libssh2
 
+Package: libtalloc
+Version: 2.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 172
+Breaks: libtalloc-dev
+Replaces: libtalloc-dev
+Filename: ./libtalloc_2.4.3_aarch64.deb
+Size: 33112
+MD5sum: a16b0e5bf97af40fa0e4ba444ede1a5c
+SHA1: fdad911eed9926e9eb16786724825d857519a6b1
+SHA256: 367f0a957e4b779c80a28862cd211d0a795ab89e8ca0131a9be94fabcad74dea
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Description: Hierarchical, reference counted memory pool system with destructors
+
+Package: libtalloc-static
+Version: 2.4.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 104
+Depends: libtalloc (= 2.4.3)
+Filename: ./libtalloc-static_2.4.3_aarch64.deb
+Size: 11324
+MD5sum: bcee8d7ae93a9061360e4b60081252e8
+SHA1: 0b0e555b339faa2cbcb2d0a83770b0dc7a94f9f7
+SHA256: 671c380797b73d80a0b91d9d644f14e425eab2d170befa9a4e44c8700054e487
+Homepage: https://talloc.samba.org/talloc/doc/html/index.html
+Description: Static libraries for libtalloc
+
 Package: libtheora
 Version: 1.2.0-1
 Architecture: aarch64
@@ -4053,6 +4082,34 @@ SHA1: 10acc37b51cd6008f061aa458cf8bf3ed9054ad2
 SHA256: f0249e4546d5a3b938a8f73e50544d9dfe6e7966c989302b31a669337f0c057e
 Homepage: https://www.gnu.org/software/libtool/
 Description: Generic library support script hiding the complexity of using shared libraries behind a consistent, portable interface
+
+Package: libuchardet
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 412
+Depends: libc++
+Filename: ./libuchardet_0.0.8-2_aarch64.deb
+Size: 100204
+MD5sum: c5aa5e1f85c9e5d109b3d88d81b02323
+SHA1: 73955d4f37c54e1fcb9c8f0822132d2b2172da90
+SHA256: f37325029639d9ff32905c63abffe62adcf998bef0546da7e77218cbb72d7194
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: An encoding detector library
+
+Package: libuchardet-static
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 380
+Depends: libuchardet (= 0.0.8-2)
+Filename: ./libuchardet-static_0.0.8-2_aarch64.deb
+Size: 74944
+MD5sum: 04a96ee12f3ccac56ad977006b978dec
+SHA1: 9a8f1cd1dd27dd1c68e2a3059e8162f7093336be
+SHA256: f0ccaeeddc5b4a090426e5f215d06e776bb89ae0a9243b3adae1579526e3becf
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: Static libraries for libuchardet
 
 Package: libudfread
 Version: 1.2.0
@@ -5398,6 +5455,20 @@ SHA256: 060e1d08188d1c243feb6ae884c49380e723a09b0c60f77ba47a902afc98a1ec
 Homepage: https://mpg123.org/
 Description: Fast console MPEG Audio Player based on libmpg123
 
+Package: mpv
+Version: 0.40.0-3
+Architecture: aarch64
+Maintainer: Joshua Kahn @TomJo2000
+Installed-Size: 4876
+Depends: alsa-lib, ffmpeg, jack, libandroid-glob, libandroid-support, libarchive, libass, libcaca, libiconv, liblua52, libsixel, libuchardet, openal-soft, pulseaudio, rubberband, zlib, libplacebo
+Filename: ./mpv_0.40.0-3_aarch64.deb
+Size: 1023880
+MD5sum: 808898e7e8adc5cf7604c3c55dac988d
+SHA1: d3d61dff81cdf6755a36fe474b11c4941605529b
+SHA256: ab487e74b21c3e732ff4d537ece43039807fd84ca857facb8f9034d86c991c76
+Homepage: https://mpv.io/
+Description: Command-line media player
+
 Package: nano
 Version: 8.7
 Architecture: aarch64
@@ -5553,6 +5624,22 @@ SHA1: 30bff4e0a9a498ac67b314dab4ff77d22d39fa13
 SHA256: e2c1ed76ac6bb8b05774fda676bed5e1713b40784bd4a3fa738ceed7f28fff13
 Homepage: https://github.com/OCL-dev/ocl-icd
 Description: OpenCL ICD Loader
+
+Package: openal-soft
+Version: 1.24.3
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 2492
+Depends: libc++
+Breaks: openal-soft-dev
+Replaces: openal-soft-dev
+Filename: ./openal-soft_1.24.3_aarch64.deb
+Size: 622492
+MD5sum: 2bb5239a484fe4ede9e6f460bbbb18aa
+SHA1: 4727ecdf3645cdc30321d0dbb2645437d4413125
+SHA256: 3c4f632ce1f30b4109b273e92ad18064cc850a1f7b0c764b7116d901640e1b2c
+Homepage: https://openal-soft.org/
+Description: Software implementation of the OpenAL API
 
 Package: opencl-headers
 Version: 2025.07.22
@@ -5716,6 +5803,20 @@ SHA256: 89929ed92745f1a70208966c5bf628dda8abc55e4bec0cfb7ea0be060af2f31c
 Homepage: https://savannah.gnu.org/projects/patch/
 Description: GNU patch which applies diff files to create patched files
 
+Package: patchelf
+Version: 0.18.0-1
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 316
+Depends: libc++
+Filename: ./patchelf_0.18.0-1_aarch64.deb
+Size: 75016
+MD5sum: 73d301e9e6bd131a7499e8beb48959ce
+SHA1: 3fe11b8e9d4dc832139cc5c56438bf179fba1f18
+SHA256: f2b1e1154f426aea6fda7849b8badfad90800c7a8093068305ef99302e677236
+Homepage: https://nixos.org/patchelf.html
+Description: Utility to modify the dynamic linker and RPATH of ELF executables
+
 Package: pcre2
 Version: 10.47
 Architecture: aarch64
@@ -5831,6 +5932,36 @@ SHA1: 47da79402715d6156ae65c5fd3f73621334f4c07
 SHA256: 0195d8a142e72bb4d116788eda254215f0fb384a49c08bd5756301574a3e0bb0
 Homepage: https://gitlab.com/procps-ng/procps
 Description: Static libraries for procps
+
+Package: proot
+Version: 5.1.107-68
+Architecture: aarch64
+Maintainer: Michal Bednarski @michalbednarski
+Installed-Size: 316
+Depends: libtalloc
+Suggests: proot-distro
+Filename: ./proot_5.1.107-68_aarch64.deb
+Size: 85340
+MD5sum: c0d1306cd3aad52489dc8a18bd11b6b5
+SHA1: b364008a7ec1cd4dd5bba3b21ea535326d3af4f8
+SHA256: 35bf30184673581160d3560c7551fdc3c099835c4c8519d3462e5b4d523be6a3
+Homepage: https://proot-me.github.io/
+Description: Emulate chroot, bind mount and binfmt_misc for non-root users
+
+Package: proot-distro
+Version: 4.34.2
+Architecture: all
+Maintainer: @termux
+Installed-Size: 296
+Depends: bash, bzip2, coreutils, curl, file, findutils, gzip, ncurses-utils, proot (>= 5.1.107-32), sed, tar, termux-tools, unzip, util-linux, xz-utils
+Suggests: bash-completion, termux-api
+Filename: ./proot-distro_4.34.2_all.deb
+Size: 33856
+MD5sum: 7acd56a3e79a59587c4b1f9ec8172704
+SHA1: ef032ab42dd8d9440c383e2e0b78cf795116055e
+SHA256: 5b21acf5fbd422f552755b328e2b41794fb890551521e4b7c58e3f3be7cb2ab5
+Homepage: https://github.com/termux/proot-distro
+Description: Termux official utility for managing proot'ed Linux distributions
 
 Package: psmisc
 Version: 23.7-1
@@ -6926,6 +7057,20 @@ SHA1: e2c56daf3ceff5cad6ad19984a1217edca9597cc
 SHA256: 2a8e1808a5be16066a05b76a3652639c5903cc20895ba1993ce7d950281bddf5
 Homepage: https://dejavu-fonts.github.io/
 Description: Font family based on the Bitstream Vera Fonts with a wider range of characters
+
+Package: uchardet
+Version: 0.0.8-2
+Architecture: aarch64
+Maintainer: @termux
+Installed-Size: 52
+Depends: libuchardet (= 0.0.8-2)
+Filename: ./uchardet_0.0.8-2_aarch64.deb
+Size: 3656
+MD5sum: 9cb5d117e17fc4aa62eb048daf71de98
+SHA1: 3c713ec2e5571517bbfc1c7eef97d617cc538ba1
+SHA256: 5b6a19cdf582ce94228bd7eeab5e8d5bc71b7c290be036f87cf83110d5f356a7
+Homepage: https://www.freedesktop.org/wiki/Software/uchardet/
+Description: An encoding detector utility
 
 Package: unbound
 Version: 1.24.2
